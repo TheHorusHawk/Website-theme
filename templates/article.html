@@ -30,6 +30,19 @@
       {% include 'article_infos.html' %}
       {{ article.content }}
     </div><!-- /.entry-content -->
+    {% if UTTERANCES and SITEURL and article.status != "draft" %}
+    <div class="comments">
+      <h2>Anything you want to contribute? Write comments below (needs GitHub account):</h2>
+      <script src="https://utteranc.es/client.js"
+        repo="TheHorusHawk/TheHorusHawk.github.io"
+        issue-term="pathname"
+        theme="preferred-color-scheme"
+        crossorigin="anonymous"
+        async>
+      </script>
+      <noscript>Please enable JavaScript to view the comments.</noscript>
+    </div>
+    {% endif %}
     {% if DISQUS_SITENAME and SITEURL and article.status != "draft" %}
     <div class="comments">
       <h2>Comments !</h2>
