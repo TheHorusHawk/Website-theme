@@ -1,0 +1,6 @@
+Modified version of pelican theme notmyidea.
+
+Expects SITENAMESMALL variable to be set in config file.
+To use UTTERANCES, set UTTERANCES to True on your config file. 
+
+For example of use, see my website theHorusHawk.github.io
