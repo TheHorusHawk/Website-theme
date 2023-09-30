@@ -14,5 +14,5 @@ Main changes:
 
 
 Should you wish to use it, know it expects these variables on your config file
->Expects SITENAMESMALL variable to be set in config file.
->To use UTTERANCES, set UTTERANCES to True on your config file. 
+> - Expects SITENAMESMALL variable to be set in config file.
+> - To use UTTERANCES, set UTTERANCES to True on your config file. 
